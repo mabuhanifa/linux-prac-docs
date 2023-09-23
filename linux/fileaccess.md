@@ -66,7 +66,7 @@ There are two types of file locks:
 - **Advisory locks:** Advisory locks are advisory in nature and do not guarantee that a file will be locked.
 - **Mandatory locks:** Mandatory locks are enforced by the kernel and guarantee that a file will be locked.
 
-Advisory locks are implemented using the `flock()` system call. Mandatory locks are implemented using the `lockf()` system call.
+Advisory locks are implemented using the `flock()` system call. Mandatory locks are implemented using the `lockf()` system calls.
 
 ## File Sharing
 
